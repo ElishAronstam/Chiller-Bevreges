@@ -1,0 +1,116 @@
+body{
+    font-family: sans-serif;
+    background: white;
+}
+
+
+.bg_big {
+    background-position: center;
+    background-size: cover;
+    min-height: 300px;
+}
+
+.bg_pic {
+    min-height: 600px;
+    background-position: center;
+    background-size:cover;
+}
+
+.carousel-caption {
+    background: rgba(255, 255, 255, 0.404);
+    color: rgb(6, 6, 83);
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+main{
+    min-height: 100px;
+    background: #fcf6ef;
+}
+
+main .container h2{
+    font-family: 'Pattaya', sans-serif;
+    padding: 20px;
+}
+
+#id_left_banner_mobile{
+    display: none;
+}
+
+main .banner{
+    display: flex;
+    align-items: center;
+    color: black;
+    min-height: 600px;
+}
+
+main .inside_banner{
+    background: rgba(128, 128, 128, 0.329);
+}
+
+main .inside_banner h3{
+    color: rgb(6, 6, 83);
+}
+
+main .banner img{
+    margin-top: -30px;
+    border-radius: 8px;
+}
+
+main .box{
+    min-height: 300px;
+    /* border-radius: 25px; */
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+main .box_div{
+    width: 50%;
+    height: 100%;
+    background: rgba(128, 128, 128, 0.418);
+}
+
+main .caption_left{
+    display: flex;
+    justify-content: end;
+}
+
+main .box:hover{
+    transform: scale(0.9, 0.9);
+    color: white;
+}
+
+main a{
+    color: white;
+    /* background: white; */
+    text-decoration: none !important;
+    padding: 0;
+}
+.strip .carousel-item{
+    /* min-height: 750px; */
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width:768px) {
+    main .banner{
+        min-height: 300px;
+    }
+    main .strip{
+        display: none;
+    }
+    
+    #id_left_banner{
+        display: none;
+    }
+
+    #id_left_banner_mobile{
+        display: block;
+    }
+}

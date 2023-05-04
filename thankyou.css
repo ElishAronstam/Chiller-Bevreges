@@ -1,0 +1,21 @@
+main {
+    min-height: 500px;
+    background: url('img/contact1.jpg');
+    margin-top: 100px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.container {
+    min-height: inherit;
+}
+
+.row {
+    min-height: inherit;
+}
+
+main .row{
+    min-height: 300px;
+}

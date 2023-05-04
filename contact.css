@@ -1,0 +1,60 @@
+main {
+    min-height: 800px;
+    background: url(img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    min-height: inherit;
+}
+
+.row {
+    min-height: inherit;
+}
+
+main .main_div {
+    min-height: 300px;
+    background: #fcf6efd6;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.shy {
+
+    color: white !important;
+    padding: 15px 25px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    width: 150px;
+    margin-top: 15px;
+
+}
+.spanEmail{
+    display: none;
+}
+main .form-control {
+    background: #fcf6ef !important;
+    border: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+main .btn{
+    width:80px
+}
+main .btn:hover{
+    background: transparent;
+    border:solid red;
+    color:red;
+}
+
+
+@media (max-width: 767px) {
+    .contact-form form h3 {
+        font-size: 3em;
+    }
+}
+

@@ -1,0 +1,28 @@
+main{
+    min-height: 1000px;
+    background:  #fcf6ef;
+    padding: 85px 45px;
+}
+
+main img{
+    cursor: pointer;
+    transition: 1s;
+    box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 85%;
+}
+
+main img:hover{
+    transform: rotate(10deg) scale(0.8, 0.8);
+}
+main iframe{
+    box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 768px) {
+    main .video iframe{
+        width: 90%;
+    }
+  
+
+}

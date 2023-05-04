@@ -1,0 +1,54 @@
+main{
+    min-height: 600px;
+   
+}
+main h2{
+    color:#fcf6ef
+}
+main .container{
+    padding-top: 85px; 
+    min-height: inherit;
+}
+main span{
+    color: #f27548;
+}
+
+#video-background{
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+  
+}
+#video-background video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+   object-fit: cover;
+   background-position: center;
+}
+
+.accordion-item .accordion-header .accordion-button {
+    background: #fcf6ef;
+    font-size: 0.6em;
+    font-family: 'Arima', cursive;
+    color:#f27548;
+    border:black;
+
+}
+.accordion-item .accordion-header .accordion-button.collapsed {
+    color:black
+   
+}
+.accordion-item .accordion-body{
+    background: #fcf6ef;
+    text-align: left;
+   
+
+}
+:focus {
+    outline: 0 !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}

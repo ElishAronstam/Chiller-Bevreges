@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@200;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="thankyou.html">
+    <title> Contact</title>
+    <script src="js/contact.js"></script>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="container">
+            <div class="row justify-content-between align-items-center p-3">
+                <a href="/index.html" class="logo col-6 col-lg-3">
+                    <img src="img/swoosh.png" width="60" alt="logo">
+                    <strong>CHILLER</strong>
+                </a>
+
+                <nav class="col-6 text-center" id="nav_open">
+                    <a href="index.html">HOME</a>
+                    <a href="about.html">ABOUT</a>
+                    <a href="media.html">MEDIA</a>
+                    <a href="faq.html">FAQ</a>
+                    <a href="contact.html">CONTACT</a>
+                    <a href="trivia.html">TRIVIA</a>
+                </nav>
+                <div class="burger-x-div col-6">
+                    <div class="burger col d-lg-none text-end" id="burger_btn">
+                        <i class="fa fa-bars " aria-hidden="true"></i>
+                    </div>
+                    <div class="close col d-lg-none text-end" id="close_btn">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container-fluid p-md-4 py-5 ">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class=" main_div row justify-content-center align-items-center col-11 col-md-12 col-lg-9  ">
+                    <div data-aos="zoom-in" data-aos-duration="800" class="shy text-center bg-danger ">Dont Be Shy</div>
+                    <h2 class="py-2 mb-0 text-center display-6">For all enquiries please complete our form.</h2>
+                    <h4 class="text-center pb-5">We will be in touch with you soonest</h4>
+
+                    <form id="id_form">
+                        <div class="row justify-content-center align-items-center d-flex">
+                            <div class="col-md-6 ">
+                                <div class="form-group mb-3" id="id_form">
+                                    <input required id="id_name"  type="text" name="Name" class="form-control"
+                                        placeholder="Your Name *" />
+                                        <p id="id_spanName" class="text-danger py-1"></p>
+                                </div>
+                                <div class="form-group my-3">
+                                    <input required id="id_email" type="text" name="Email" class="form-control"
+                                        placeholder="Your Email *" />
+                                    <p id="id_spanEmail" class="text-danger py-1"></p>
+                                </div>
+                                <div class="form-group my-3">
+                                    <input required id="id_phone" type="text" name="Phone" class="form-control"
+                                        placeholder="Your Phone Number *" />
+                                    <p id="id_spanPhone" class="text-danger py-1"></p>
+                                </div>
+                                <!-- </div>
+                            <div class="col-md-6"> -->
+                                <div class="form-group mb-3">
+                                    <textarea required id="id_text" name="txtMsg" class="form-control" placeholder="Your Message *"
+                                        style="width: 100%; height: 150px;"></textarea>
+                                    <p id="id_spanMsg" class="text-danger py-1"></p>
+                                </div>
+
+                            </form>
+                                <div class="row my-3 justify-content-center align-items-center">
+                                    <button id="id_form" class="btn btn-danger rounded-3 text-center" type="submit" onclick="myfunc()">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container-fluid">
+        <div class="container">
+            <div class="col-12 row justify-content-around text-center">
+                <div>
+                    <a href="https://www.facebook.com">
+                        <i class="px-3 my-4 fa fa-2x fa-facebook-square" aria-hidden="true"></i></a>
+                    <a href="https://www.twitter.com">
+                        <i class="px-3 my-4 fa fa-2x fa-twitter-square" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com">
+                        <i class="px-3 my-4 fa fa-2x fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.youtube.com">
+                        <i class="px-3 my-4 fa fa-2x fa-youtube-play" aria-hidden="true"></i></a>
+                </div>
+                <p class="text-white-50 mb-3">
+                    &copy; Elisheva Sherman
+                </p>
+            </div>
+        </div>
+
+        </div>
+    </footer>
+
+    <script src="js/burger.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+body{
+    background: #fcf6ef;
+}
+
+main{
+    min-height: 750px;
+    padding-top: 85px;
+    overflow: hidden;
+}
+main img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+main p{
+    color:black;
+}
+main h5{
+    color:#f27548;
+}
+
+#myBtn{
+    font-family: 'Pattaya', sans-serif ;
+   border: solid rgb(6, 6, 83);
+    color: rgb(6, 6, 83);
+    
+}
+
+#more {display: none;}
